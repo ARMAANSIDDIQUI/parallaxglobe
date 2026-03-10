@@ -8,9 +8,9 @@ export default function ScrollIndicator({ scrollYProgress }: { scrollYProgress: 
       style={{ opacity }}
       className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-6 z-20 pointer-events-none"
     >
-      <span className="text-[9px] pb-3 uppercase tracking-[0.4em] text-white/40 font-medium">
+      {/* <span className="text-[9px] py-3 uppercase tracking-[0.4em] text-white/40 font-medium">
         Scroll to explore
-      </span>
+      </span> */}
       <div className="w-[1px] h-16 bg-white/10 relative overflow-hidden rounded-full">
         <motion.div
           animate={{ y: ['-100%', '100%'] }}

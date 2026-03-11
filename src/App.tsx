@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Lenis from 'lenis';
 import Hero from './components/Hero';
-import PostHeroSection from './components/PostHeroSection';
+
 
 export default function App() {
   useEffect(() => {
@@ -20,7 +20,6 @@ export default function App() {
   return (
     <div className="bg-[#020617] text-white selection:bg-gozoom-blue/30 font-sans">
       <Hero />
-      <PostHeroSection />
       <div className="h-screen flex items-center justify-center bg-[#020617] relative z-10 border-t border-white/5">
         <h2 className="text-4xl md:text-6xl font-serif italic text-white/50 tracking-tight">
           The Journey Continues

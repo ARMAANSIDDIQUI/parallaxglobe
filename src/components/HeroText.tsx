@@ -16,7 +16,7 @@ export default function HeroText({ scrollYProgress }: { scrollYProgress: MotionV
         transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
         className="pointer-events-auto flex flex-col items-center"
       >
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.9, filter: "blur(10px)" }}
           animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
           transition={{ duration: 1, delay: 0.1, ease: "easeOut" }}
@@ -26,7 +26,7 @@ export default function HeroText({ scrollYProgress }: { scrollYProgress: MotionV
           <span className="text-xs font-semibold tracking-[0.2em] text-white/80 uppercase">
             GoZoom Technologies
           </span>
-        </motion.div>
+        </motion.div> */}
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-gozoom-blue to-gozoom-green mb-6 max-w-5xl mx-auto leading-[1.05]">
           Designing the <span className="font-serif italic font-normal text-white">Future</span> of <br className="hidden md:block" /> Digital Experiences
